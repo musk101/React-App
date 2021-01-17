@@ -1,6 +1,9 @@
 import React from 'react';
-const app=()=>{
-return <div>App!!</div>;
+import SearchBar from './SearchBar';
+const App=()=>{
+return (<div>
+   <SearchBar/>
+</div>);
 };
 
-export default app;
+export default App;
